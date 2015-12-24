@@ -1,0 +1,32 @@
+{
+  "name": "schema2-datahandler",
+  "version": "0.0.1",
+  "description": "Bridge to the data layer in schema2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhylle/schema2-datahandler.git"
+  },
+  "keywords": [
+    "schema2",
+    "datahandler"
+  ],
+  "author": "Martin Hylleberg <mhylle@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhylle/schema2-datahandler/issues"
+  },
+  "homepage": "https://github.com/mhylle/schema2-datahandler",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "@mhylle/schema2-security": "0.0.2"
+  }
+}
